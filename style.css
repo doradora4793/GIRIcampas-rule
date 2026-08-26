@@ -23,3 +23,17 @@ p {
 section {
     margin-top: 40px;
 }
+
+header {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: white;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin-top: 12px;
+}
