@@ -19,3 +19,7 @@ h1 {
 p {
     line-height: 1.8;
 }
+
+section {
+    margin-top: 40px;
+}
