@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="ja">
 
@@ -5,34 +6,230 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>ボードゲーム公式サイト</title>
+    <meta name="description"
+        content="協力型ボードゲーム「限界大学生」の公式製品ページ。ゲームの概要や遊び方、ルールを紹介します。">
+
+    <title>限界大学生 | ボードゲーム公式サイト</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <header>
-        <h1>ボードゲーム公式サイト</h1>
-        <p>ゲームの概要・遊び方・ルールを紹介します。</p>
+    <!-- ヘッダー -->
+    <header class="site-header">
+        <div class="header-inner">
+            <a href="#" class="logo">🎲 生田ボドゲ</a>
+
+            <nav aria-label="メインナビゲーション">
+                <a href="#about">ゲーム概要</a>
+                <a href="#features">特徴</a>
+                <a href="#how-to-play">遊び方</a>
+                <a href="#rules">ルール</a>
+            </nav>
+        </div>
     </header>
 
-    <main>
-        <section>
-            <h2>ゲーム概要</h2>
-            <p>
-                このページでは、ゲームの概要や遊び方を紹介します。
+    <!-- メインビジュアル -->
+    <section class="hero">
+        <div class="hero-content">
+            <span class="hero-label">
+                大学生活サバイバル・協力型ボードゲーム
+            </span>
+
+            <h1>限界大学生</h1>
+
+            <p class="hero-copy">
+                バイトも試験も、みんなで乗り越えろ！
             </p>
+
+            <p class="hero-description">
+                お金がない！時間がない！単位も危ない！<br>
+                仲間と協力して、限界大学生活を生き抜こう。
+            </p>
+
+            <a href="#about" class="button button-dark">
+                ゲームを詳しく見る ↓
+            </a>
+        </div>
+    </section>
+
+    <main>
+
+        <!-- ゲーム概要 -->
+        <section id="about" class="section">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="section-label">ABOUT</span>
+                    <h2>ゲーム概要</h2>
+                </div>
+
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3>
+                            目指せ、無事に進級！
+                        </h3>
+
+                        <p>
+                            大学生にとって、試験と生活費は大きな問題。
+                            アルバイトでお金を稼ぎながら、
+                            仲間と力を合わせて試験に挑もう！
+                        </p>
+
+                        <p>
+                            このゲームは、大学生活をテーマにした
+                            協力型ボードゲームです。
+                        </p>
+
+                        <p>
+                            あなたたちは無事に大学生活を
+                            乗り切ることができるでしょうか？
+                        </p>
+                    </div>
+
+                    <div class="game-image">
+                        <img src="images/package.jpg"
+                             alt="限界大学生のパッケージ画像"
+                             onerror="this.style.display='none'">
+                        <span class="image-placeholder">
+                            パッケージ画像
+                        </span>
+                    </div>
+                </div>
+
+            </div>
         </section>
 
-        <section>
-            <h2>ルール</h2>
-            <p>
-                詳しいルールは現在準備中です。
-            </p>
+        <!-- ゲームの特徴 -->
+        <section id="features" class="section section-alt">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="section-label">FEATURES</span>
+                    <h2>ゲームの特徴</h2>
+                    <p>限界大学生の楽しみ方をご紹介！</p>
+                </div>
+
+                <div class="feature-grid">
+
+                    <article class="feature-card">
+                        <div class="feature-icon">🤝</div>
+                        <h3>仲間と協力！</h3>
+                        <p>
+                            プレイヤー同士で相談しながら、
+                            困難な大学生活を乗り越えよう。
+                        </p>
+                    </article>
+
+                    <article class="feature-card">
+                        <div class="feature-icon">💰</div>
+                        <h3>アルバイトで稼ぐ！</h3>
+                        <p>
+                            大学生活にはお金が必要！
+                            アルバイトで生活費を確保しよう。
+                        </p>
+                    </article>
+
+                    <article class="feature-card">
+                        <div class="feature-icon">📚</div>
+                        <h3>試験に挑戦！</h3>
+                        <p>
+                            単位を落としたら大ピンチ！
+                            仲間と協力して試験を乗り切ろう。
+                        </p>
+                    </article>
+
+                </div>
+            </div>
         </section>
+
+        <!-- 遊び方 -->
+        <section id="how-to-play" class="section">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="section-label">HOW TO PLAY</span>
+                    <h2>ゲームの遊び方</h2>
+                    <p>大学生活を乗り越えるための基本的な流れ</p>
+                </div>
+
+                <div class="steps">
+
+                    <div class="step">
+                        <div class="step-number">01</div>
+                        <div class="step-content">
+                            <h3>アルバイトでお金を稼ごう</h3>
+                            <p>
+                                大学生活に必要なお金を稼ごう。
+                                お金の管理も重要なポイント！
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="step">
+                        <div class="step-number">02</div>
+                        <div class="step-content">
+                            <h3>仲間と協力して準備しよう</h3>
+                            <p>
+                                試験に向けて準備を進めよう。
+                                仲間同士の協力が成功のカギ！
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="step">
+                        <div class="step-number">03</div>
+                        <div class="step-content">
+                            <h3>試験を乗り越えよう</h3>
+                            <p>
+                                みんなで試験に挑戦！
+                                無事に大学生活を乗り越えよう。
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ルール -->
+        <section id="rules" class="section section-alt">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="section-label">RULE BOOK</span>
+                    <h2>ゲームルール</h2>
+                </div>
+
+                <div class="rules-box">
+                    <div class="rules-icon">📖</div>
+
+                    <h3>詳しいルールはこちら</h3>
+
+                    <p>
+                        ゲームの準備からプレイ方法まで、
+                        詳しいルールをご紹介します。
+                    </p>
+
+                    <p class="rules-notice">
+                        ルールブックは現在準備中です。
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
     </main>
 
-</body>
+    <!-- フッター -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-logo">🎲 生田ボドゲ</p>
+            <p>限界大学生 公式製品ページ</p>
+            <small>&copy; 2026 生田ボドゲ</small>
+        </div>
+    </footer>
 
+</body>
 </html>
